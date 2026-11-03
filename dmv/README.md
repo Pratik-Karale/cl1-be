@@ -1,6 +1,6 @@
 # Data Modeling & Visualization — 417522
 
-Six runnable experiments. Run each from the repository root:
+Seven runnable experiments. Run each from the repository root:
 
 ```bash
 python dmv/exp1_data_loading_formats.py
@@ -9,6 +9,7 @@ python dmv/exp3_data_cleaning_churn.py
 python dmv/exp4_data_wrangling_real_estate.py
 python dmv/exp5_matplotlib_aqi.py
 python dmv/exp6_data_aggregation_retail.py
+python dmv/exp7_time_series.py
 ```
 
 | Script | What it demonstrates |
@@ -19,6 +20,9 @@ python dmv/exp6_data_aggregation_retail.py
 | `exp4_data_wrangling_real_estate.py` | Column-name cleaning, group imputation, merge, filter, outliers, pivot, encoding |
 | `exp5_matplotlib_aqi.py` | Line, bar, stacked bar, box, violin, scatter and bubble charts |
 | `exp6_data_aggregation_retail.py` | groupby/agg, share and rank, pivot table, grouped/stacked bars |
+| `exp7_time_series.py` | Datetime index, moving averages, seasonal decomposition, correlation, ARIMA forecast |
+
+These correspond to syllabus **Labs 7–13**.
 
 ## Data
 

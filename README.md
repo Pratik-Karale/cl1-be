@@ -12,7 +12,7 @@ SPPU 2020 pattern, AY 2026-27.
 | Folder | Contents |
 |---|---|
 | `machine_learning/` | 6 runnable ML practical scripts |
-| `dmv/` | 6 runnable DMV experiment scripts |
+| `dmv/` | 7 runnable DMV experiment scripts |
 | `machine_learning/notes/` | Viva theory notes, one file per experiment |
 | `dmv/notes/` | Viva theory notes, one file per experiment |
 | `common/` | Shared syntax cheat sheet and evaluation-metrics guide |
@@ -55,6 +55,8 @@ All plots and generated CSVs are written to `outputs/`.
 | 5 | `exp5_ensemble_iris.py` | Voting, AdaBoost, Gradient Boosting, XGBoost |
 | 6 | `exp6_qlearning_maze.py` | Q-Learning in a grid maze |
 
+These six match the ML practicals in scope: **1b, 2a, 3a, 4a, 5b, 6a**.
+
 ## Data Modeling & Visualization experiments
 
 | # | Script | Topic |
@@ -65,8 +67,9 @@ All plots and generated CSVs are written to `outputs/`.
 | 4 | `exp4_data_wrangling_real_estate.py` | Wrangling real-estate data |
 | 5 | `exp5_matplotlib_aqi.py` | AQI visualization with matplotlib |
 | 6 | `exp6_data_aggregation_retail.py` | Retail sales aggregation by region |
+| 7 | `exp7_time_series.py` | Stock-price time series: moving averages, decomposition, ARIMA |
 
-The DMV scripts generate their own synthetic datasets, so they run offline. `exp2_web_api_weather.py` uses a live API only if `OPENWEATHER_API_KEY` is set; otherwise it uses a clearly labelled synthetic fallback.
+DMV experiments 1–7 correspond to syllabus **Labs 7–13**. The scripts generate their own synthetic datasets, so they run offline. `exp2_web_api_weather.py` uses a live API only if `OPENWEATHER_API_KEY` is set; otherwise it uses a clearly labelled synthetic fallback.
 
 ## Dataset note
 
@@ -74,7 +77,7 @@ The Uber fares CSV is about 23 MB and is **not** committed. See [`data/README.md
 
 ## Requirements
 
-Python 3.10+ and the packages in `requirements.txt`. XGBoost is optional; `exp5_ensemble_iris.py` skips that model with a printed note if the package is unavailable.
+Python 3.10+ and the packages in `requirements.txt`. XGBoost is optional; `exp5_ensemble_iris.py` skips that model with a printed note if the package is unavailable. `exp7_time_series.py` requires `statsmodels`.
 
 ## Notes and exam preparation
 
