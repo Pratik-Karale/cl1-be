@@ -16,6 +16,7 @@ SPPU 2020 pattern, AY 2026-27.
 | `machine_learning/notes/` | Viva theory notes, one file per experiment |
 | `dmv/notes/` | Viva theory notes, one file per experiment |
 | `common/` | Shared syntax cheat sheet and evaluation-metrics guide |
+| `references/` | Sanitized reference PDFs used to build the scripts and notes |
 | `data/` | Dataset instructions (the Uber CSV is not committed) |
 | `outputs/` | Generated plots and CSVs (ignored by git) |
 
